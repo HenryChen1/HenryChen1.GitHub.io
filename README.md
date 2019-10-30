@@ -1,8 +1,9 @@
-#一点点说明
+# HuxBlog Boilerplate
 
-这是[mukosame.github.io](http://mukosame.github.io)的示例代码，第一个能用的，干净的，完全可以作为模板和基础的版本
-* 感谢来自于beiyuu的设计(http://beiyuu.com/)
-* 希望你喜欢
-* 欢迎star
-* 欢迎fork
-* Happy hacking ^_^
+##### This is the boilerplate of [Hux Blog](https://github.com/Huxpro/huxpro.github.io), all documents is over there!
+
+#### [View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)
+
+#### [View Live Hux Blog &rarr;](http://huangxuan.me)
+
+## If you like Hux Blog, Please star [huxpro.github.io repo](https://github.com/Huxpro/huxpro.github.io) instead of this! Thank you!
