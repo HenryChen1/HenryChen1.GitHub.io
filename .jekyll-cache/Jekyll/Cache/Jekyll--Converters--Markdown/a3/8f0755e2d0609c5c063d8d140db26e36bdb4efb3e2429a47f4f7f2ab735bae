@@ -1,4 +1,4 @@
-I"<div class="index-content about">
+I"Ï<div class="index-content about">
     <div class="section">
         <ul class="artical-cate">
             <li><a href="/"><span>Blog</span></a></li>
@@ -9,6 +9,13 @@
         <div class="cate-bar"><span id="cateBar"></span></div>
 
         <ul class="artical-list">
+        
+            <li>
+                <h2>
+                    <a href="/resume">resume</a>
+                </h2>
+                <div class="title-desc">personal resume.</div>
+            </li>
         
         </ul>
     </div>
