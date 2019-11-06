@@ -1,10 +1,10 @@
 # Site settings
-title: Welcome
+title: Henry Blog
 SEOTitle: Henry的博客 | Henry’s Blog
 header-img: img/home-bg.jpg
 email: 337865067@qq.com
 description: "Here is my blog"
-keyword: "blog"
+keyword: "blog，Henry,博客 "
 url: "https://henrychen1.github.io/"         # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -59,17 +59,17 @@ kramdown:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 
 
 # Sidebar settings 侧边栏
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "WHAT I LOVE <br>爱音乐，爱游戏，更爱写代码"
+sidebar-avatar: img/myph.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -85,16 +85,7 @@ friends: [
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        #title: "Foo",
+        #href: "#"
     }
 ]

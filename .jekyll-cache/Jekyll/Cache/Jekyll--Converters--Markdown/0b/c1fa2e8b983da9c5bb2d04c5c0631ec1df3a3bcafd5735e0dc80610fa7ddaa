@@ -1,0 +1,24 @@
+I"�<h1 id="note-3">note 3</h1>
+
+<p>心得：挺后悔当初大一没有去跟项目。真的不得不说，理工科的实践太重要了，你理论少一点都没关系，动手做起东西来才能学到好多有用的，才会驱使你去学习更多的理论，相辅相成。</p>
+
+<p>其次一个是经验吧，也是需要很多项目实践之后积累下来的。</p>
+
+<p><strong>局放任务规划</strong></p>
+
+<ul class="task-list">
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />​	1、从单片机中获取采样数据</p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />​	2、解决为何数据将负数置零了😥</p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />​	3、解决缓存区大小（处理文件流ofstream）😱</p>
+  </li>
+  <li class="task-list-item">
+    <p><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />​    4、进程间信号量的改进</p>
+  </li>
+</ul>
+
+:ET
