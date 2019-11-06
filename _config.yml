@@ -68,7 +68,7 @@ kramdown:
 
 # Sidebar settings 侧边栏
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "WHAT I LOVE <br>爱音乐，爱咖啡，爱游戏，更爱写代码"
+sidebar-about-description: "WHAT I LOVE <br>爱爵士，爱咖啡，爱游戏，更爱写代码"
 sidebar-avatar: img/myph.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
