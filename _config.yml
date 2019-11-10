@@ -12,8 +12,8 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     henryyyyy
-zhihu_username:     Henry
+#weibo_username:     HHHHHenryyyyy丶
+zhihu_username:     lovesickzhu
 github_username:    HenryChen1
 #twitter_username:  henry
 #facebook_username:  henry
@@ -33,6 +33,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 
