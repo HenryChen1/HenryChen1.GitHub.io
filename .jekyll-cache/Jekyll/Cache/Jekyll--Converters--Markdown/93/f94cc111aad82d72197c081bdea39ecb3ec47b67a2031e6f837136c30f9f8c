@@ -1,0 +1,24 @@
+I"�<h2 id="q1">Q1：</h2>
+<p>刚开始发遇到的第一个大问题：</p>
+
+<blockquote>
+  <p>上位机无法读取单片机收集到的信息（单片机可以收集，调试AD有采样）</p>
+</blockquote>
+
+<p>原因：调试用的USB并联到485影响信号波形，无法发送到上位机（应该是因为阻抗问题）</p>
+
+<p>解决方法：拆掉调试的USB的接线，再重新调试。🙃</p>
+
+<h2 id="study-account">Study Account：</h2>
+
+<p>查找Socket API 错误的方法
+windows：winsock2.h WSAGetLastError()
+linux：errno</p>
+
+<h3 id="learning-path">Learning Path：</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Socket API</li>
+</ul>
+
+:ET

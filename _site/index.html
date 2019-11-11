@@ -154,9 +154,9 @@
             ">
     			
 <div class="post-preview">
-    <a href="/2015/09/22/note-3/">
+    <a href="/2019/11/06/note_03/">
         <h2 class="post-title">
-            Note 3
+            Note_03
         </h2>
         
         <h3 class="post-subtitle">
@@ -164,27 +164,120 @@
         </h3>
         
         <div class="post-content-preview">
-            Note 3
-
-心得：挺后悔当初大一没有去跟项目。真的不得不说，理工科的实践太重要了，你理论少一点都没关系，动手做起东西来才能学到好多有用的，才会驱使你去学习更多的理论，相辅相成。
+            心得：挺后悔当初大一没有去跟项目。真的不得不说，理工科的实践太重要了，你理论少一点都没关系，动手做起东西来才能学到好多有用的，才会驱使你去学习更多的理论，相辅相成。
 
 其次一个是经验吧，也是需要很多项目实践之后积累下来的。
 
-局放任务规划
+这是第一个commit
+
+
+
+**Project Requests
 
 
   
     ​	1、从单片机中获取采样数据
   
   
-    ​	2、解决为何数据将负数置零了😥
-  
-  
-    ​	3、解决...
+    ​	2、解决为何数据将负数置零...
         </div>
     </a>
     <p class="post-meta">
-        Posted by Henry on September 22, 2015
+        Posted by Henry on November 6, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/11/04/note_02/">
+        <h2 class="post-title">
+            Note_02
+        </h2>
+        
+        <div class="post-content-preview">
+            记录一下明天要解决添加读波形数据的思路：
+
+ARM：
+
+
+  1、先将采样点数据进行处理（在中断服务函数中），修改points数量（700）
+2、新增新的内存块储存数据（reg5）
+3、新内存块地址映射——modbus.c
+
+
+LINUX：
+
+
+  1、修改getexceptpoints -&gt;用getregs（5012，700）进行读取寄存器中的data
+2、用参数exceptdata...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Henry on November 4, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/11/02/note_01/">
+        <h2 class="post-title">
+            Note_01
+        </h2>
+        
+        <div class="post-content-preview">
+            Q1：
+刚开始发遇到的第一个大问题：
+
+
+  上位机无法读取单片机收集到的信息（单片机可以收集，调试AD有采样）
+
+
+原因：调试用的USB并联到485影响信号波形，无法发送到上位机（应该是因为阻抗问题）
+
+解决方法：拆掉调试的USB的接线，再重新调试。🙃
+
+Study Account：
+
+查找Socket API 错误的方法
+windows：winsock2.h WSAGetLastErro...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Henry on November 2, 2019
+    </p>
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="/2019/11/01/welcome/">
+        <h2 class="post-title">
+            Welcome To My Blog
+        </h2>
+        
+        <h3 class="post-subtitle">
+            Hello World,Hello Blog
+        </h3>
+        
+        <div class="post-content-preview">
+            写在前面的话
+
+捣鼓了一个多星期的个人博客终于诞生啦
+
+后记
+
+讲真，敲这段文字的时候情绪是真的很低落，我并不是一个善于表达自己的人
+
+毕业季的压力也是真的要比高考一百天高几百倍，无论是实习还是求职，无论是毕设还是考试
+
+每一个看起来似乎很小，但又可以足以让自己崩溃，甚至是上下班的高峰期
+
+否定自己的念头越来越多，发呆的时候老是回想，自己走的路到底对不对，合不合适
+
+“放弃吧”，内心一直有个...
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by Henry on November 1, 2019
     </p>
 </div>
 <hr>
@@ -208,6 +301,36 @@
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
+                        
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#有感" title="有感" rel="2">
+                                    有感
+                                </a>
+                            
+                        
+                            
+                        
+                            
+                                <a href="/tags/#嵌入式" title="嵌入式" rel="2">
+                                    嵌入式
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#Study Account" title="Study Account" rel="3">
+                                    Study Account
+                                </a>
+                            
+                        
+                            
+                                <a href="/tags/#Learning Path" title="Learning Path" rel="2">
+                                    Learning Path
+                                </a>
+                            
                         
                             
                         
