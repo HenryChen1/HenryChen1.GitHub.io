@@ -1,0 +1,51 @@
+I"�<h2 id="今日一皮">今日一皮🤣</h2>
+
+<p><img src="E:\HenryChen1.GitHub.io\img\post img\note_04_1.png" alt="note_04_1" /></p>
+
+<p>​</p>
+
+<p>希望主管不会杀了我</p>
+<hr />
+
+<h3 id="这两天重温了动态分配内存用上了还学到了返回数组指针的函数调用">这两天重温了动态分配内存用上了，还学到了返回数组指针的函数调用🐱‍💻</h3>
+
+<p>从寄存器中获取数据帧的数据的函数：</p>
+
+<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int16_t</span> <span class="o">*</span><span class="n">CProtocol</span><span class="o">::</span><span class="n">GetExceptPoints</span><span class="p">(</span><span class="n">BYTE</span> <span class="n">addr</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="kt">int16_t</span> <span class="o">*</span><span class="n">points</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int16_t</span> <span class="p">[</span><span class="mi">700</span><span class="p">];</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">GetRegs</span><span class="p">(</span><span class="n">addr</span><span class="p">,</span> <span class="mi">5120</span><span class="p">,</span> <span class="mi">700</span><span class="p">)){</span>
+		<span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span> <span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">700</span> <span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">){</span>
+			<span class="n">points</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">m_pModbusReg_5</span><span class="o">-&gt;</span><span class="n">send_points</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>	
+		<span class="p">}</span>	
+	<span class="p">}</span>
+	<span class="k">else</span> 
+	<span class="p">{</span>
+		<span class="n">printf</span><span class="p">(</span><span class="s">"GetRegs false</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="p">}</span>
+	<span class="n">printf</span><span class="p">(</span><span class="s">"saved points</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+	<span class="k">return</span> <span class="n">points</span><span class="p">;</span><span class="c1">//传递数组首地址</span>
+	<span class="k">delete</span> <span class="p">[]</span> <span class="n">points</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>reference:</p>
+
+<p><a href="https://blog.csdn.net/happyhuidi/article/details/79825244">https://blog.csdn.net/happyhuidi/article/details/79825244</a></p>
+
+<p><a href="https://www.runoob.com/cplusplus/cpp-dynamic-memory.html">菜鸟教程</a></p>
+
+<p><a href="https://www.cnblogs.com/Wade-James/p/7965775.html">C/C++中如何接收return返回来的数组元素</a></p>
+
+<hr />
+
+<h3 id="project-requirements">Project Requirements</h3>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />1、从单片机中获取采样数据</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />2、解决为何数据将负数置零了😥</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />3、解决缓存区大小，改用动态分配内存的方法😱</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />4、进程间信号量通信的改进（实时系统RTX），将工作放在任务函数中而不是中断函数中</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />5、解决读取波形的数据帧因Modbus协议传输慢而被覆盖部分的问题（设置合理的传输方式——缓冲区，以及传输数量和采样点）</li>
+</ul>
+
+:ET
