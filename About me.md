@@ -28,16 +28,30 @@
 
 > Hi , here is Henry.
 
+
 - local in Guangzhou，a senior student in the internship
+
+
 - junior programmer🕴,electric engineering 🐶
   - studying embedded software development 
   - skilled in C/C++| , Matlab , little Python
   - beginer of Github [portal->](https://github.com/HenryChen1)
+
 
 - coffee☕
   - green hand of filter coffee
   - prefer to the bean of the shallow or  moderate  baking from Ethiopia
   - prefer to the sun-baked Plum Flower 
 
+
 - music🎶
+  - piano🎹&percussion🥁
+  - get affection for swing , bossa
+  - favorite jazz composer : Dave Bruberk
+  - favorite jazz singer & trumpeter : Andrea Motis [portal->]( https://andreamotis.com/ )
+
+
+- photograph📸
+  - perfer humanity
+  - for record some things or people 
 
