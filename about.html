@@ -7,8 +7,8 @@ header-img: "img/about-bg.jpg"
 
 <!-- Language Selector -->
 <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英语 English </option>
+    <option value="0" selected> English（渣翻） </option>
+    <option value="1"> 中文 </option>
 </select>
 
 <!-- Chinese Version -->
@@ -39,6 +39,7 @@ header-img: "img/about-bg.jpg"
         <li><p>音乐🎶</p>
         <ul>
         <li>钢琴🎹&amp;打击乐🥁</li>
+        <li>广大管弦</li>
         <li>偏爱swing、bossa🎷</li>
         <li>最喜爱的作曲家🎼：Dave Bruberk</li>
         <li>最喜爱的女歌手兼小号手🎺：Andrea Motis  <a href='https://andreamotis.com/'>传送门—&gt;</a></li>
@@ -52,7 +53,16 @@ header-img: "img/about-bg.jpg"
         <br>
         </ul>
         </li>
-        
+        <li><p>游戏⚔</p>
+            <ul>
+            <li>FPS：守望先锋</li>
+            <li>RPG：巫师系列、刺客信条系列、蝙蝠侠系列、合金装备</li>
+            <li>Moba：英雄联盟</li>
+            <li>Music：Cytus、Demmo、</li>
+            <br>
+            </ul>
+            </li>
+
         </ul>
         <p>&nbsp;</p>
 
@@ -120,11 +130,11 @@ header-img: "img/about-bg.jpg"
     var $en = document.querySelector(".en");
     function onLanChange(index){
         if(index == 0){
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }else{
-            $en.style.display = "block";
             $zh.style.display = "none";
+            $en.style.display = "block";
+        }else{
+            $en.style.display = "none";
+            $zh.style.display = "block";
         }
     }
     onLanChange(0);
