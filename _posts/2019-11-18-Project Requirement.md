@@ -4,6 +4,7 @@ title:      "Project Requirement"
 subtitle:   "今天也是bug满满的一天呀"
 date:       2019-11-18
 author:     "Henry"
+header-img: "img/post-bg2.jpg"
 
 tags:
     - Study Account
